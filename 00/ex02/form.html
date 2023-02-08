@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Formulario</title>
+    <script src="popup.js"></script>
+
+</head>
+
+<body >
+   <caption>Formulario 1</caption>
+    <form>
+        <p>
+            SOBRENOME:<input type="text" name="firstname" id="firstname" placeholder="Digite seu sobrenome">
+        </p>
+        <p>
+            NOME:<input type="text" name="name" id="name" placeholder="Digite seu nome">
+        </p>
+        <p>
+            TELEFONE:<input type="phone" id="phone" name="phone" placeholder="Digite seu telefone">
+        </p>
+        <p>
+            IDADE:<input type="number" id="age" name="age" placeholder="Digite sua idade">
+        </p>
+        <p>
+            E-MAIL:<input type="email" id="email" placeholder="Digite seu e-mail">
+        </p>
+        <p>
+            EStudante da 42? <input type="checkbox" id="student" value="yes">
+        </p>
+        <p>
+            GENERO:
+        </p>
+            <input type="radio" name="gender" id="gender_female" value="FEMININO">FEMININO
+            <input type="radio" name="gender" id="gender_male" value="MASCULINO">MASCULINO
+            <input type="radio" name="gender" id="gender_other" value="OUTRO">OUTRO</p>
+        <p>
+            <button onclick="displayFormContents()">SALVAR</button>
+        </p>
+    
+    </form>
+    
+</body>
+
+</html>
+
